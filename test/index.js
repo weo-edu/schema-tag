@@ -1,9 +1,10 @@
-var Schema = require('@weo-edu/schema')
-var validate = require('@weo-edu/validate')
-Schema.use(validate)
+var assert = require('assert')
+var validator = require('@weo-edu/validate')
 
 var Tag = require('..')
-var assert = require('assert')
+
+var validateTag = validator(Tag)
+
 
 
 
@@ -15,7 +16,7 @@ describe('Schema tag', function () {
   }
 
   it('should validate a tag', function () {
-    var validation = Tag.validate(tag)
+    var validation = validateTag(tag)
     assert(validation.valid)
   })
 
@@ -24,7 +25,7 @@ describe('Schema tag', function () {
   }
 
   it('should not allow names longer than 25 chars', function () {
-    var validation = Tag.validate(longTag)
+    var validation = validateTag(longTag)
     assert(!validation.valid)
   })
 
@@ -37,7 +38,7 @@ describe('Schema tag', function () {
   }
 
   it('should not allow additional properties', function() {
-    var validation = Tag.validate(otherTag)
+    var validation = validateTag(otherTag)
     assert(!validation.valid)
   })
 })
