@@ -1,5 +1,5 @@
 {
-  "name": "schema-tag",
+  "name": "@weo-edu/schema-tag",
   "description": "Tag schema",
   "repository": "git://github.com/weo-edu/schema-tag.git",
   "version": "0.1.0",
