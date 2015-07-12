@@ -1,0 +1,20 @@
+{
+  "name": "schema-tag",
+  "description": "Tag schema",
+  "repository": "git://github.com/weo-edu/schema-tag.git",
+  "version": "0.1.0",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "dependencies": {
+    "@weo-edu/schema": "weo-edu/schema"
+  },
+  "devDependencies": {
+    "@weo-edu/validate": "weo-edu/validate",
+    "mocha": "2.x",
+    "standard": "^4.0.0"
+  },
+  "engines": {
+    "node": "~0.10.38",
+    "npm": "~2.9.0"
+  }
+}
