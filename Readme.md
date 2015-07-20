@@ -15,7 +15,7 @@ Tag schema
 {
   type: 'object',
   properties: {
-    displayName: { type: 'string', maxLength: 25, required: true },
+    displayName: { type: 'string', maxLength: 30, required: true },
     content: { type: 'string' },
     tags: { type: 'array' },
     meta: { type: 'array' }
