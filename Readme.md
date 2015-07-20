@@ -1,7 +1,7 @@
 
 # Schema Tag
 
-[ ![Codeship Status for weo-edu/color](https://img.shields.io/codeship/d2207fe0-0ae6-0133-c64c-2696e3e4b295/master.svg)](https://codeship.com/projects/90734) [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
+[ ![Codeship Status for weo-edu/schema-tag](https://img.shields.io/codeship/d2207fe0-0ae6-0133-c64c-2696e3e4b295/master.svg)](https://codeship.com/projects/90734) [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 
 Tag schema
 

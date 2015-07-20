@@ -21,10 +21,10 @@ describe('Schema tag', function () {
   })
 
   var longTag = {
-    displayName: 'awesome-tag-awsome-tag-awe'
+    displayName: 'awesome-tag-awsome-tag-awesome-'
   }
 
-  it('should not allow names longer than 25 chars', function () {
+  it('should not allow names longer than 30 chars', function () {
     var validation = validateTag(longTag)
     assert(!validation.valid)
   })
